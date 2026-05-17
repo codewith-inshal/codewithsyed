@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 function ServicesCTA() {
   return (
-    <section className="py-28 px-6 md:px-16 bg-black">
+    <section className="py-10 px-6 md:px-16 bg-black">
       <motion.div
         whileInView={{ scale: 1 }}
         initial={{ scale: 0.9 }}

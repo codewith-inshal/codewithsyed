@@ -4,8 +4,8 @@ function Process() {
   const steps = ["Discuss", "Plan", "Develop", "Deploy"];
 
   return (
-    <section className="py-28 px-6 md:px-16 bg-black">
-      <h2 className="text-4xl font-bold text-center mb-16 py-3">
+    <section className="py-10 px-6 md:px-16 bg-black">
+      <h2 className="text-4xl font-bold text-center mb-16 pb-10">
         My <span className="text-lime-400">Workflow</span>
       </h2>
 

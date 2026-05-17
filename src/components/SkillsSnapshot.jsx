@@ -2,8 +2,8 @@ import React from "react";
 
 function SkillsSnapshot() {
   return (
-    <section className="py-24 px-6 md:px-16 bg-[#0b0b0b] text-white">
-      <h2 className="text-4xl font-bold text-center mb-16 py-3">
+    <section className="py-10 px-6 md:px-16 bg-[#0b0b0b] text-white">
+      <h2 className="text-4xl font-bold text-center mb-16 pb-10">
         Skills <span className="text-lime-400">Snapshot</span>
       </h2>
 

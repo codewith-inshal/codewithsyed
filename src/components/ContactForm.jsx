@@ -43,9 +43,9 @@ function ContactForm() {
   };
 
   return (
-    <section className="py-28 px-6 md:px-16 bg-black text-white">
+    <section className="py-10 px-6 md:px-16 bg-black text-white">
       <div className="max-w-5xl mx-auto">
-        <h2 className="text-4xl font-bold text-center mb-16 py-3">
+        <h2 className="text-4xl font-bold text-center mb-16 pb-10">
           Send Me a <span className="text-lime-400">Message</span>
         </h2>
 

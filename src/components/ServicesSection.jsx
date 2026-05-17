@@ -12,9 +12,9 @@ function ServicesSection() {
   ];
 
   return (
-    <section className="py-28 px-6 md:px-16 bg-black text-white">
+    <section className="py-10 px-6 md:px-16 bg-black text-white">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-extrabold text-center mb-20 py-3">
+        <h2 className="text-4xl md:text-5xl font-extrabold text-center mb-20 pb-10">
           My <span className="text-lime-400">Services</span>
         </h2>
 

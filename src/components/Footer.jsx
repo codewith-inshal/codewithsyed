@@ -38,11 +38,11 @@ function Footer() {
   return (
     <footer className="relative overflow-hidden bg-black text-white border-t border-lime-400/10">
       {/* GLOW EFFECTS */}
-      <div className="absolute top-[-80px] left-[-80px] w-[220px] h-[220px] bg-lime-400/10 blur-[100px] rounded-full"></div>
+      <div className="absolute -top-20 -left-20 -w-55 -h-55 bg-lime-400/10 blur-[100px] rounded-full"></div>
 
-      <div className="absolute bottom-[-80px] right-[-80px] w-[220px] h-[220px] bg-lime-500/10 blur-[100px] rounded-full"></div>
+      <div className="absolute -bottom-20 -right-20 -w-55 -h-55 bg-lime-500/10 blur-[100px] rounded-full"></div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-16 py-14">
+      <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-16 py-10">
         {/* TOP SECTION */}
         <div className="flex flex-col items-center text-center gap-8">
           {/* LOGO */}
@@ -123,7 +123,7 @@ function Footer() {
         </div>
 
         {/* DIVIDER */}
-        <div className="w-full h-[1px] bg-white/10 my-10"></div>
+        <div className="w-full h-px bg-white/10 my-10"></div>
 
         {/* COPYRIGHT */}
         <motion.p

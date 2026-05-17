@@ -24,8 +24,8 @@ function ProjectsSection() {
   ];
 
   return (
-    <section className="py-28 px-6 md:px-16 bg-[#0b0b0b] text-white">
-      <h2 className="text-4xl md:text-5xl font-extrabold text-center mb-20 py-3">
+    <section className="py-20 px-6 md:px-16 bg-[#0b0b0b] text-white">
+      <h2 className="text-4xl md:text-5xl font-extrabold text-center mb-20 pb-10">
         My <span className="text-lime-400">Projects</span>
       </h2>
 
@@ -36,11 +36,7 @@ function ProjectsSection() {
             whileHover={{ y: -10 }}
             className="rounded-3xl overflow-hidden bg-white/5 border border-white/10"
           >
-            <img
-              src={p.image}
-              className="h-[220px] w-full object-cover"
-              alt=""
-            />
+            <img src={p.image} className="h-55 w-full object-cover" alt="" />
 
             <div className="p-6">
               <h3 className="text-xl font-bold mb-2">{p.title}</h3>

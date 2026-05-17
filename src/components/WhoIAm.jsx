@@ -3,13 +3,13 @@ import { motion } from "framer-motion";
 
 function WhoIAm() {
   return (
-    <section className="py-24 px-6 md:px-16 bg-[#0b0b0b] text-white">
+    <section className="py-10 px-6 md:px-16 bg-[#0b0b0b] text-white">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         <motion.div
           initial={{ opacity: 0, x: -60 }}
           whileInView={{ opacity: 1, x: 0 }}
         >
-          <h2 className="text-4xl font-bold mb-6">
+          <h2 className="text-4xl font-bold mb-6 pb-10">
             Who <span className="text-lime-400">I Am</span>
           </h2>
 

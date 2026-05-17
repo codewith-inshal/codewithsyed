@@ -9,10 +9,10 @@ function Home() {
   return (
     <>
       <HeroSection />
+      <ProjectsSection />
       <AboutSection />
       <SkillsSection />
       <ServicesSection />
-      <ProjectsSection />
       <ContactSection />
     </>
   );

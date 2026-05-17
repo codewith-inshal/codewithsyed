@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 function ContactInfo() {
   return (
-    <section className="py-24 px-6 md:px-16 bg-[#0b0b0b] text-white">
+    <section className="py-10 px-6 md:px-16 bg-[#0b0b0b] text-white">
       <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
         {/* Email */}
         <motion.div
