@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 function ProjectsSection() {
   const projects = [
     {
-      title: "Calculator",
-      image: "/calculator.png",
-      description: "Advanced Calculator made with HTML, CSS & JS",
-      live: "https://advanced-calculator-beige.vercel.app/",
+      title: "Northwind Dashboard",
+      image: "/dashboard.png",
+      description: "Advanced Dashboard made with HTML, CSS & JS",
+      live: "https://northwind-roastery-dashboard.vercel.app/#overview",
     },
     {
       title: "Student Management System",

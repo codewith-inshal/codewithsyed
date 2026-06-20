@@ -11,9 +11,9 @@ function HeroSection() {
       <div className="absolute inset-0 bg-black/70 z-10"></div>
 
       {/* GRADIENT GLOW */}
-      <div className="absolute top-[-120px] left-[-120px] w-[300px] h-[300px] bg-lime-400/20 blur-[120px] rounded-full z-0"></div>
+      <div className="absolute -top-30 -left-30 w-75 h-75 bg-lime-400/20 blur-[120px] rounded-full z-0"></div>
 
-      <div className="absolute bottom-[-120px] right-[-120px] w-[300px] h-[300px] bg-lime-500/10 blur-[120px] rounded-full z-0"></div>
+      <div className="absolute -bottom-30 -right-30 w-75 h-75 bg-lime-500/10 blur-[120px] rounded-full z-0"></div>
 
       {/* HERO CONTENT */}
       <div className="relative z-20 flex flex-col items-center justify-center min-h-screen text-center px-6">
@@ -107,7 +107,7 @@ function HeroSection() {
             SCROLL
           </span>
 
-          <div className="w-[2px] h-10 bg-lime-400 rounded-full"></div>
+          <div className="w-0.5 h-10 bg-lime-400 rounded-full"></div>
         </motion.div>
       </div>
     </section>
