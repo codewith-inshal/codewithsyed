@@ -70,7 +70,7 @@ function Footer() {
                 <Link
                   to={item.path}
                   style={{ textDecoration: "none" }}
-                  className="text-white font-medium tracking-wide hover:text-lime-400 transition-all duration-300"
+                  className="text-white font-medium tracking-wide hover:text-lime-4x00 transition-all duration-300"
                 >
                   {item.name}
                 </Link>
@@ -104,22 +104,6 @@ function Footer() {
               </motion.a>
             ))}
           </motion.div>
-
-          {/* HIRE ME BUTTON */}
-          <motion.a
-            href="https://wa.me/923299742406"
-            target="_blank"
-            rel="noopener noreferrer"
-            whileHover={{
-              scale: 1.05,
-              boxShadow: "0px 0px 25px rgba(132, 204, 22, 0.5)",
-            }}
-            whileTap={{ scale: 0.95 }}
-            style={{ textDecoration: "none" }}
-            className="bg-lime-400 text-black px-7 py-3 rounded-full font-bold tracking-wider transition-all duration-300"
-          >
-            Open Chat
-          </motion.a>
         </div>
 
         {/* DIVIDER */}

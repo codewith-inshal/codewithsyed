@@ -74,7 +74,7 @@ function Navbar() {
             boxShadow: "0px 0px 20px rgba(132, 204, 22, 0.6)",
           }}
           whileTap={{ scale: 0.95 }}
-          className="relative overflow-hidden bg-lime-400 text-black px-5 py-2.5 rounded-full font-bold text-sm tracking-wider shadow-md transition-all duration-300 no-underline"
+          className="relative overflow-hidden bg-lime-400 text-black px-5 py-2.5 font-bold text-sm tracking-wider shadow-md transition-all duration-300 no-underline"
           style={{ textDecoration: "none" }}
         >
           <span className="relative z-10">Hire Me</span>
