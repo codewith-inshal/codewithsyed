@@ -9,7 +9,7 @@ function About() {
   return (
     <>
       <Helmet>
-        <title>Projects | Syed</title>
+        <title>CodewithInshal | About Page</title>
         <meta
           name="description"
           content="Explore React, MERN Stack and frontend development projects built by Syed."

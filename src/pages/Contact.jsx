@@ -8,7 +8,7 @@ function Contact() {
   return (
     <>
       <Helmet>
-        <title>Projects | Syed</title>
+        <title>CodewithInshal | Contact Page</title>
         <meta
           name="description"
           content="Explore React, MERN Stack and frontend development projects built by Syed."

@@ -10,7 +10,7 @@ function Services() {
   return (
     <div className="bg-black text-white overflow-hidden">
       <Helmet>
-        <title>Projects | Syed</title>
+        <title>CodewithInshal | Services Page</title>
         <meta
           name="description"
           content="Explore React, MERN Stack and frontend development projects built by Syed."
