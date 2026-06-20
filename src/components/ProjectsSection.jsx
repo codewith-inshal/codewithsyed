@@ -6,20 +6,23 @@ function ProjectsSection() {
     {
       title: "Northwind Dashboard",
       image: "/dashboard.png",
-      description: "Advanced Dashboard made with HTML, CSS & JS",
+      description:
+        "Advanced Roastery Dashboard made with AI, HTML, CSS & JS...",
       live: "https://northwind-roastery-dashboard.vercel.app/#overview",
     },
     {
       title: "Student Management System",
-      image: "/student.png",
-      description: "Student Management System with HTML, CSS & JS",
-      live: "https://student-management-system-eta-rosy.vercel.app/",
+      image: "/scholara.png",
+      description:
+        "Student Management System made with AI, React JS, Tailwind CSS...",
+      live: "https://important-scholara-campus-core.base44.app/",
     },
     {
-      title: "Website Templates",
-      image: "/template.png",
-      description: "Responsive Vercel deployed Website template",
-      live: "https://smart-edu-website-template.vercel.app/",
+      title: "E-commerce Store",
+      image: "/store.png",
+      description:
+        "Advanced E-commerce Website made with AI, React, Tailwind CSS...",
+      live: "https://shahjee-commerce-pro.base44.app",
     },
   ];
 
